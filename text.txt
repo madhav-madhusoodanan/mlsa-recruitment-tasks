@@ -1,0 +1,209 @@
+> npx react-native run-android
+
+info Running jetifier to migrate libraries to AndroidX. You can disable it using "--no-jetifier" flag.
+Jetifier found 1080 file(s) to forward-jetify. Using 4 workers...
+info JS server already running.
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+info Installing the app...
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+> Configure project :react-native-reanimated
+File /home/madhav/.android/repositories.cfg could not be loaded.
+Checking the license for package Android SDK Build-Tools 29.0.2 in /home/madhav/Android/Sdk/licenses
+License for package Android SDK Build-Tools 29.0.2 accepted.
+Preparing "Install Android SDK Build-Tools 29.0.2 (revision: 29.0.2)".
+"Install Android SDK Build-Tools 29.0.2 (revision: 29.0.2)" ready.
+Installing Android SDK Build-Tools 29.0.2 in /home/madhav/Android/Sdk/build-tools/29.0.2
+"Install Android SDK Build-Tools 29.0.2 (revision: 29.0.2)" complete.
+"Install Android SDK Build-Tools 29.0.2 (revision: 29.0.2)" finished.
+Checking the license for package Android SDK Platform 29 in /home/madhav/Android/Sdk/licenses
+License for package Android SDK Platform 29 accepted.
+Preparing "Install Android SDK Platform 29 (revision: 5)".
+"Install Android SDK Platform 29 (revision: 5)" ready.
+Installing Android SDK Platform 29 in /home/madhav/Android/Sdk/platforms/android-29
+"Install Android SDK Platform 29 (revision: 5)" complete.
+"Install Android SDK Platform 29 (revision: 5)" finished.
+Checking the license for package Android SDK Build-Tools 28.0.3 in /home/madhav/Android/Sdk/licenses
+License for package Android SDK Build-Tools 28.0.3 accepted.
+Preparing "Install Android SDK Build-Tools 28.0.3 (revision: 28.0.3)".
+"Install Android SDK Build-Tools 28.0.3 (revision: 28.0.3)" ready.
+Installing Android SDK Build-Tools 28.0.3 in /home/madhav/Android/Sdk/build-tools/28.0.3
+"Install Android SDK Build-Tools 28.0.3 (revision: 28.0.3)" complete.
+"Install Android SDK Build-Tools 28.0.3 (revision: 28.0.3)" finished.
+
+> Task :react-native-gesture-handler:compileDebugJavaWithJavac
+
+> Task :react-native-community_masked-view:compileDebugJavaWithJavac
+
+> Task :react-native-reanimated:compileDebugJavaWithJavac
+
+> Task :react-native-safe-area-context:compileDebugJavaWithJavac
+
+> Task :react-native-screens:compileDebugJavaWithJavac
+
+> Task :app:compileDebugJavaWithJavac
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libc++_shared.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libflipper.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libhermes-inspector.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+
+> Task :app:stripDebugDebugSymbols
+Compatible side by side NDK version was not found.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libevent-2.1.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libevent_core-2.1.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libevent_extra-2.1.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfb.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfbjni.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfolly_futures.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfolly_json.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libglog.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libglog_init.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libhermes-executor-debug.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libhermes-executor-release.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libimagepipeline.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjsc.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjscexecutor.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjsijniprofiler.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjsinspector.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libnative-filters.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libnative-imagetranscoder.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libreactnativeblob.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libreactnativejni.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libyoga.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libc++_shared.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libevent-2.1.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libevent_core-2.1.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libevent_extra-2.1.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfb.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfbjni.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libflipper.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfolly_futures.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as isUnable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfolly_json.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libglog.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libglog_init.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libhermes-executor-debug.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libhermes-executor-release.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libhermes-inspector.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libimagepipeline.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjscexecutor.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjsijniprofiler.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as iUnable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjsinspector.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libnative-filters.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libnative-imagetranscoder.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libreactnativeblob.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libreactnativejni.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as iUnable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libyoga.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libc++_shared.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libevent-2.1.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libevent_core-2.1.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libevent_extra-2.1.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfb.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfbjni.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libflipper.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfolly_futures.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfolly_json.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libglog.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libglog_init.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libhermes-executor-debug.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libhermes-executor-release.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libhermes-inspector.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libimagepipeline.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjsc.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjsijniprofiler.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjsinspector.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libnative-filters.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libreactnativeblob.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libreactnativejni.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libyoga.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libc++_shared.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libevent-2.1.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libevent_core-2.1.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libflipper.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfolly_futures.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfolly_json.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libglog.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libglog_init.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libhermes-executor-release.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is
+> Task :app:stripDebugDebugSymbols
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjscexecutor.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libnative-imagetranscoder.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libevent_extra-2.1.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfb.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfbjni.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libhermes-executor-debug.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libhermes-inspector.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libimagepipeline.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjsc.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjscexecutor.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjsijniprofiler.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjsinspector.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libnative-filters.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libnative-imagetranscoder.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libreactnativeblob.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libreactnativejni.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libyoga.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+
+> Task :app:packageDebug FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.8/userguide/command_line_interface.html#sec:command_line_warnings
+121 actionable tasks: 121 executed
+warning: [options] source value 7 is obsolete and will be removed in a future release
+warning: [options] target value 7 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+warning: [options] source value 7 is obsolete and will be removed in a future release
+warning: [options] target value 7 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+warning: [options] source value 7 is obsolete and will be removed in a future release
+warning: [options] target value 7 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: /run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+warning: [options] source value 7 is obsolete and will be removed in a future release
+warning: [options] target value 7 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+warning: [options] source value 7 is obsolete and will be removed in a future release
+warning: [options] target value 7 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+Note: /run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter/android/app/src/debug/java/com/cryptocurrencyapp/ReactNativeFlipper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:packageDebug'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
+   > Java heap space
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11m 44s
+
+error Failed to install the app. Make sure you have the Android development environment set up: https://reactnative.dev/docs/environment-setup. Run CLI with --verbose flag for more details.
+Error: Command failed: ./gradlew app:installDebug -PreactNativeDevServerPort=8081
+warning: [options] source value 7 is obsolete and will be removed in a future release
+npm ERR! code 1
+npm ERR! path /run/media/madhav/TOSHIBA EXT/Project_work/Missions/LCRN10-cryptocurrency-app-starter
+npm ERR! command failed
+npm ERR! command sh -c react-native "run-android"
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/madhav/.npm/_logs/2021-02-23T19_01_38_674Z-debug.log
+
